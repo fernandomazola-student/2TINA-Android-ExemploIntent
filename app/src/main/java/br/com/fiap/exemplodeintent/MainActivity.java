@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         pessoa.setNome("Fernando Mazola");
         pessoa.setIdade(20);
         pessoa.setDeficiente(false);
-
+        it.putExtra("pessoa", pessoa);
 
         //it.putExtra("nome", "Fernando Mazola");
         //it.putExtra("idade", 20);
